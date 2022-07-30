@@ -1,0 +1,142 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Algoritmo peso ideal'
+  ClientHeight = 338
+  ClientWidth = 542
+  Color = clMenu
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesktopCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    AlignWithMargins = True
+    Left = 160
+    Top = 109
+    Width = 49
+    Height = 16
+    Alignment = taCenter
+    Caption = 'Altura'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object edtPi: TLabel
+    Left = 320
+    Top = 109
+    Width = 73
+    Height = 16
+    Alignment = taCenter
+    Caption = 'Peso ideal'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object rgpSexo: TRadioGroup
+    Left = 160
+    Top = 32
+    Width = 217
+    Height = 55
+    Caption = 'Sexo'
+    Color = clWhite
+    Columns = 2
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ItemIndex = 0
+    Items.Strings = (
+      'Feminino'
+      'Masculino')
+    ParentBackground = False
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 0
+  end
+  object edtAltura: TEdit
+    Left = 136
+    Top = 131
+    Width = 89
+    Height = 30
+    Alignment = taCenter
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+  end
+  object edtPesoIdeal: TEdit
+    Left = 312
+    Top = 131
+    Width = 89
+    Height = 30
+    Alignment = taCenter
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    NumbersOnly = True
+    ParentFont = False
+    TabOrder = 2
+  end
+  object btnCalcular: TButton
+    Left = 224
+    Top = 176
+    Width = 83
+    Height = 33
+    Caption = 'Calcular'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 3
+    OnClick = btnCalcularClick
+  end
+  object btnLimpar: TButton
+    Left = 224
+    Top = 215
+    Width = 83
+    Height = 34
+    Caption = 'Limpar'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 4
+    OnClick = btnLimparClick
+  end
+  object btnFechar: TButton
+    Left = 224
+    Top = 255
+    Width = 83
+    Height = 35
+    Caption = 'Fechar'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 5
+    OnClick = btnFecharClick
+  end
+end

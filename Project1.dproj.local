@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/07/28 19:27:42.000.157,=C:\Users\etec\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/07/28 20:35:09.000.578,C:\Users\etec\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\etec\Desktop\delphiCalcularPeso\Unit1.dfm</Transaction>
+    <Transaction>2022/07/28 20:35:09.000.578,C:\Users\etec\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\etec\Desktop\delphiCalcularPeso\Unit1.pas</Transaction>
+    <Transaction>2022/07/28 20:35:36.000.889,C:\Users\etec\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\etec\Desktop\delphiCalcularPeso\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
